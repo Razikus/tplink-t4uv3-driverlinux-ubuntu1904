@@ -1,3 +1,14 @@
+INSTALLING IN UBUNTU 19.04
+
+```
+apt install -y dkms build-essential
+git clone https://github.com/Razikus/tplink-t4uv3-driverlinux-ubuntu1904.git
+cd build-essential
+dkms add .
+dkms install -m 88x2bu -v 1.1
+```
+DONE
+
 <u>**8822BU for Linux**</u>
 
 Driver for 802.11ac USB Adapter with  
